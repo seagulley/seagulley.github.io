@@ -1,7 +1,7 @@
 {
   "name": "kallie-site",
   "private": true,
-  "homepage": "https://seagulley.github.io",
+  "homepage": "https://seagulley.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
