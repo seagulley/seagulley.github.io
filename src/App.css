@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Cutive+Mono&display=swap');
+
+body {
+  color: #FBFFED;
+}
+
+.section-title {
+  font-family: 'Bungee Inline', cursive;
+  text-shadow: 1px 1px 10px rgb(128, 128, 255, 0.8), 1px 1px 10px rgb(128, 128, 255, 0.8);
+}
+
+.page-container {
+  width: 100vw; /* Ensure the container spans the full width */
+  /* overflow: hidden; Hide any overflow from the Parallax component */
+  height: max-content;
+  
+}
+
+.parallax-layer {
+  background-size: cover;
+}
+
+.content-container {
+  text-align: center;
+  padding: 100px 0;
+  height: 200vh;
+}
+
+ul {
+  list-style-type: none; /* Removes default bullets */
+}
+
+li::before {
+  content: '✨'; /* Inserts smiley emoji */
+  margin-right: 10px; /* Space between the emoji and the list item content */
+  font-size: 1rem;
+}

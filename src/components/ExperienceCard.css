@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&display=swap');
+
+.experience-card {
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-size: larger;
+    background-color: #FBFFED;
+    color: #4e56ef;
+    padding: 0.5rem 2rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 24px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 30rem;
+    -webkit-box-shadow: 0 0 20px rgb(128, 128, 255, 0.8); 
+    -moz-box-shadow: 0 0 20px rgb(128, 128, 255, 0.8); 
+    box-shadow:0 0 20px rgb(128, 128, 255, 0.8);
+}
+
+.experience-card .github-icon {
+    font-size: 1.5rem; 
+}
+
+.experience-card h2 {
+    font-family: 'Baloo Bhaina', sans-serif;
+}
+  
+.company {
+    font-weight: bold;
+}
+  
+.duration {
+    color: #6275e2;
+}
+
+
+  

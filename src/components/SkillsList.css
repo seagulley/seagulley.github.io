@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Cutive+Mono&display=swap');
+
+.skills-list {
+    /* margin: 20px; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    text-align: left;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    font-size: larger;
+    grid-area: skills;
+}
+
+.skills-list h2 {
+    font-family: 'Bungee Inline', cursive;
+}
+  
+.skills-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-shadow:1px 1px 5px rgb(93, 93, 255), 1px 1px 5px rgb(93, 93, 255);
+}
+  
+.skills {
+    display: flex;
+    flex-direction: column;
+    max-height: 8rem;
+    flex-wrap: wrap;
+}
+  
+.skill {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+}
+  
+.skills-list li {
+    padding-right: 3rem;
+}

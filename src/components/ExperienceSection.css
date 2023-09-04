@@ -1,0 +1,25 @@
+.experience-section {
+    position: relative;
+    /* transform: translateY(-10%); Centers the section vertically */
+    text-align: left;
+    padding: 2% 5%;
+    flex-wrap: wrap;
+    /* background-color: pink; */
+}
+
+.experience-section .section-title {
+    padding-left: 3%;
+}
+
+.experience-content {
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 7%;
+}
+
+.experience-skills {
+    padding-left: 7%;
+}
+
+
+
