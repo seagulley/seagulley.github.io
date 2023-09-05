@@ -5,7 +5,7 @@ import './ExperienceSection.css'
 
 const ExperienceSection = () => {
     const languages = ['Java', 'JavaScript/TypeScript', 'Python', 'C/C++', 'Assembly (RISC-V)'];
-    const webMobileDev = ['MongoDB', 'ExpressJS', 'ReactJS', 'Flask', 'AngluarJS', 'Openshift', 'REST API', 'React Native', 'Flutter'];
+    const webMobileDev = ['MongoDB', 'ExpressJS', 'ReactJS', 'Flask', 'AngluarJS', 'Openshift', 'REST API', 'React Native', 'Flutter', 'PostgreSQl', 'MySQL'];
     const dataScience = ['TensorFlow', 'Pandas']
     const projectManagement = ['Agile', 'Jira']
 
