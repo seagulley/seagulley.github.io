@@ -5,7 +5,7 @@ import './ExperienceSection.css'
 
 const ExperienceSection = () => {
     const languages = ['Java', 'JavaScript/TypeScript', 'Python', 'C/C++', 'Assembly (RISC-V)'];
-    const webMobileDev = ['MongoDB', 'ExpressJS', 'ReactJS', 'Flask', 'AngluarJS', 'Openshift', 'REST API', 'React Native', 'Flutter', 'PostgreSQl', 'MySQL'];
+    const softwareDev = ['Spring', 'MongoDB', 'ExpressJS', 'ReactJS', 'Flask', 'AngluarJS', 'Openshift', 'REST API', 'React Native', 'Flutter'];
     const dataScience = ['TensorFlow', 'Pandas']
     const projectManagement = ['Agile', 'Jira']
 
@@ -15,10 +15,16 @@ const ExperienceSection = () => {
             <div className='experience-content'>
                 <div className='experience-cards'>
                     <ExperienceCard
-                        jobTitle="Full Stack Developer"
-                        company="RBC Amplify, Capital Markets"
-                        duration="May 2023 - Present"
-                        description="Led the development of an unreleased capital markets product with  a team, focused on improving digital customer experiences and using state of the art technology to provide RBC with a distinctive edge in the US market."
+                        jobTitle="Software Development Engineer Intern"
+                        company="Amazon Web Services - Step Functions"
+                        duration="May 2024 - Present"
+                        description="Independently spearheading a major team project for launch at AWS re:Invent, taking full ownership of development, documentation, and implementation."
+                    />
+                    <ExperienceCard
+                        jobTitle="Software Development Intern"
+                        company="RBC Amplify, RBC Clear"
+                        duration="May 2023 - December 2023"
+                        description="Led the development of a key product feature for RBC Clear, focused on improving digital customer experiences and using state of the art technology to provide RBC with a distinctive edge in the US market."
                     />
                     <ExperienceCard
                         jobTitle="Undergraduate Research Assistant"
@@ -30,7 +36,7 @@ const ExperienceSection = () => {
                 </div>
                 <div className='experience-skills'>
                     <SkillsList title="Languages" skills={languages} /> 
-                    <SkillsList title="Web/Mobile Development" skills={webMobileDev} /> 
+                    <SkillsList title="Software Development" skills={softwareDev} /> 
                     <SkillsList title="Data Science" skills={dataScience} /> 
                     <SkillsList title="Project Management" skills={projectManagement} /> 
                 </div>

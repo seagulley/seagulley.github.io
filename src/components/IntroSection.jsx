@@ -9,7 +9,7 @@ const IntroSection = () => {
                 <p>3rd year computing science | university of alberta ‘25</p>
             </div>
             <div className='intro-desc'>
-                <h2>artist, coder</h2>
+                <h2>artist, skateboarder, developer!</h2>
                 <p>hey! i’m kallie, and i love building, whether it be art and design, or coding. with my creative background and multidisciplinary skills, i excel in both front-end and back-end development, crafting seamless ui/ux experiences that harmonize creativity and functionality.</p>
             </div>
         </div>

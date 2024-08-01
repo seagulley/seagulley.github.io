@@ -9,15 +9,15 @@ function App() {
   return (
     <div className="app">
       <ParallaxSection
-        imagePath="/karaoke.jpg"
+        imagePath="src/assets/karaoke.jpg"
         height={900}
         offset={0}
       >
         <IntroSection />
       </ParallaxSection>
       <ParallaxSection
-        imagePath="/florama.jpg"
-        height={1900}
+        imagePath="src/assets/florama.png"
+        height={2100}
         offset={17}
       >
           <ExperienceSection />

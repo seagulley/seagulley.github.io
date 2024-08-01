@@ -1,7 +1,6 @@
 {
   "name": "kallie-site",
   "private": true,
-  "homepage": "https://seagulley.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +8,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "serve": "vite preview",
+    "deploy": "vite build && gh-pages -d docs"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
