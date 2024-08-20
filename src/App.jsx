@@ -4,19 +4,21 @@ import ParallaxSection from './components/ParallaxSection';
 import IntroSection from './components/IntroSection';
 import ExperienceSection from './components/ExperienceSection';
 import PersonalSection from './components/PersonalSection';
+import karaokeImage from './assets/karaoke.jpg';
+import floramaImage from './assets/florama.png'
 
 function App() {
   return (
     <div className="app">
       <ParallaxSection
-        imagePath="src/assets/karaoke.jpg"
+        imagePath={karaokeImage}
         height={900}
         offset={0}
       >
         <IntroSection />
       </ParallaxSection>
       <ParallaxSection
-        imagePath="src/assets/florama.png"
+        imagePath={floramaImage}
         height={2100}
         offset={17}
       >
