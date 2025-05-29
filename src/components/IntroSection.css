@@ -27,8 +27,8 @@
 }
 
 .intro-desc h2::before {
-    content: '🎨👾'; /* Inserts smiley emoji */
-    margin-right: 10px; /* Space between the emoji and the list item content */
+    content: '🎨👾';
+    margin-right: 10px;
     font-size: 1rem;
     text-shadow: none;
 }
