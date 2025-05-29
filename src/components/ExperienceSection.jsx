@@ -18,20 +18,20 @@ const ExperienceSection = () => {
                         company="Amazon Web Services - Step Functions"
                         duration="May 2025 - Present"
                         description="Designing and implementing new functionality to enhance JSON parsing and data transformation capabilities within AWS Step Functions Distributed Map state."
-                        externalLink="https://aws.amazon.com/about-aws/whats-new/2025/02/aws-step-functions-data-source-output-option-distributed-map"
                     />
                     <ExperienceCard
                         jobTitle="Software Development Engineer Intern"
                         company="Amazon Web Services - Step Functions"
                         duration="May 2024 - December 2025"
                         description="Led the design and implementation of new input/output types and formatting logic for Distributed Map, a parallel processing state in AWS Step Functions."
+                        externalLink="https://aws.amazon.com/about-aws/whats-new/2025/02/aws-step-functions-data-source-output-option-distributed-map"
                     />
                     <ExperienceCard
                         jobTitle="Software Development Intern"
                         company="RBC Amplify, RBC Clear"
                         duration="May 2023 - December 2023"
                         description="Led the development of a key product feature for RBC Clear, focused on improving digital customer experiences and using state of the art technology to provide RBC with a distinctive edge in the US market."
-                    />
+              E      />
                     <ExperienceCard
                         jobTitle="Undergraduate Research Assistant"
                         company="University of Alberta"
