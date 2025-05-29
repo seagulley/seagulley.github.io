@@ -17,7 +17,7 @@ const ExperienceCard = ({ jobTitle, company, duration, description, githubLink, 
         </a>
       )}
       {externalLink && (
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <a href={externalLink} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLink} />
         </a>
       )}
