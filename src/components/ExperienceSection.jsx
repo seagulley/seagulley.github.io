@@ -5,9 +5,8 @@ import './ExperienceSection.css'
 
 const ExperienceSection = () => {
     const languages = ['Java', 'JavaScript/TypeScript', 'Python', 'C/C++', 'Assembly (RISC-V)'];
-    const softwareDev = ['Spring', 'MongoDB', 'ExpressJS', 'ReactJS', 'Flask', 'AngluarJS', 'Openshift', 'REST API', 'React Native', 'Flutter'];
+    const softwareDev = ['Spring', 'MongoDB', 'ExpressJS', 'ReactJS', 'Flask', 'AngluarJS', 'Openshift', 'AWS', 'Flutter'];
     const dataScience = ['TensorFlow', 'Pandas']
-    const projectManagement = ['Agile', 'Jira']
 
     return (
         <div className='experience-section'>
@@ -17,8 +16,15 @@ const ExperienceSection = () => {
                     <ExperienceCard
                         jobTitle="Software Development Engineer Intern"
                         company="Amazon Web Services - Step Functions"
-                        duration="May 2024 - Present"
-                        description="Independently spearheading a major team project for launch at AWS re:Invent, taking full ownership of development, documentation, and implementation."
+                        duration="May 2025 - Present"
+                        description="Designing and implementing new functionality to enhance JSON parsing and data transformation capabilities within AWS Step Functions Distributed Map state."
+                        externalLink="https://aws.amazon.com/about-aws/whats-new/2025/02/aws-step-functions-data-source-output-option-distributed-map"
+                    />
+                    <ExperienceCard
+                        jobTitle="Software Development Engineer Intern"
+                        company="Amazon Web Services - Step Functions"
+                        duration="May 2024 - December 2025"
+                        description="Led the design and implementation of new input/output types and formatting logic for Distributed Map, a parallel processing state in AWS Step Functions."
                     />
                     <ExperienceCard
                         jobTitle="Software Development Intern"
@@ -38,7 +44,6 @@ const ExperienceSection = () => {
                     <SkillsList title="Languages" skills={languages} /> 
                     <SkillsList title="Software Development" skills={softwareDev} /> 
                     <SkillsList title="Data Science" skills={dataScience} /> 
-                    <SkillsList title="Project Management" skills={projectManagement} /> 
                 </div>
             </div>
             

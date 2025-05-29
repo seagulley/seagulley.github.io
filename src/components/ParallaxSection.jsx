@@ -1,28 +1,58 @@
+import React, { useRef, useEffect, useState } from 'react';
 import { Parallax } from 'react-parallax';
 
-function ParallaxSection({ imagePath, height, offset, children }) {
-    return (
-        <Parallax
-            // bgImage={image_path}
-            strength={-500}  // Adjust this to change the parallax effect strength
-            renderLayer={percentage => (
-                <div
-                    style={{
-                        width: '100%',
-                        height: '100%',
-                        position: 'absolute',
-                        backgroundImage: `url(${imagePath})`,
-                        backgroundSize: '100% auto',
-                        backgroundPosition: 'center ' + (percentage * 50 + offset) + '%', /* Adjust this as needed */
-                    }}
-                />
-            )}
-        >
-            <div style={{ height: height }}>
-                {children}
-            </div>
-        </Parallax>
-    );
+function ParallaxSection({ imagePath, offset = 0, children }) {
+  const ref = useRef(null);
+  const [height, setHeight] = useState('auto');
+
+  useEffect(() => {
+    if (ref.current) {
+      const updateHeight = () => {
+        setHeight(ref.current.scrollHeight);
+      };
+
+      updateHeight(); // set initial height
+
+      const resizeObserver = new ResizeObserver(updateHeight);
+      resizeObserver.observe(ref.current);
+
+      return () => resizeObserver.disconnect();
+    }
+  }, []);
+
+  return (
+    <Parallax
+      strength={-500}
+      renderLayer={percentage => (
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            backgroundImage: `url(${imagePath})`,
+            backgroundSize: 'cover',
+            backgroundPosition: `center ${percentage * 50 + offset}%`,
+            backgroundRepeat: 'no-repeat',
+            zIndex: -1,
+          }}
+        />
+      )}
+    >
+      <div
+        ref={ref}
+        style={{
+          minHeight: 'auto',
+          height: height,
+          width: '100%',
+          position: 'relative',
+        }}
+      >
+        {children}
+      </div>
+    </Parallax>
+  );
 }
 
 export default ParallaxSection;

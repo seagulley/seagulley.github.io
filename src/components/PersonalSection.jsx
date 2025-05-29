@@ -15,12 +15,10 @@ function PersonalSection() {
         <h3>hobbies</h3>
         <ul>
           <li>skateboarding</li>
-          <li>snowboarding</li>
-          <li>making music</li>
+          <li>music</li>
           <li>drawing</li>
           <li>fiber art (crochet, knitting)</li>
           <li>language learning</li>
-          {/* Add more hobbies here */}
         </ul>
       </div>
       

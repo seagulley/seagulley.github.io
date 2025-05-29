@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Cutive+Mono&display=swap');
 
 .personal-section {
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: 'Baloo Bhaina 2', sans-serif;
     padding-left: 10%;
+    padding-bottom: 10vh;
 }
 
 .resume-button {
